@@ -112,19 +112,18 @@ header{
 }
 
 a.nav-link{
-	padding: 2px;
-	margin: 5px 10px;
+    padding: 25px 10px;
 	text-decoration: none;
 	color: var(--main-fonts-color);
 	font-family: var(--main-font-family);
-	cursor: pointer;
+    cursor: pointer;
 	text-transform: capitalize;
 }
 
 a.nav-link:hover{
     border-bottom: 2px solid #7235d3;
     color: var(--decor-color);
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .github, .icon{
